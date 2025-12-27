@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrabonti Barua | Mechatronics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body class="font-sans">
+    <custom-navbar></custom-navbar>
+    <!-- Hero Section -->
+    <section id="about" class="min-h-screen flex items-center justify-center bg-white">
+        <div class="container mx-auto px-6 py-20">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Profile Image -->
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                        <img src="assets/images/profile.jpg" alt="Shrabonti Barua" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                
+                <!-- Content -->
+                <div class="md:w-1/2">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Shrabonti Barua</h1>
+                    <h2 class="text-2xl md:text-3xl text-indigo-600 font-medium mb-6">Mechatronics Student</h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Passionate about robotics and automation with hands-on experience in electronics and mechanical systems. 
+                        Currently building foundational skills in mechatronics through practical projects.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#projects" class="px-6 py-3 bg-indigo-600 text-white rounded-md font-medium hover:bg-indigo-700 transition">
+                            View Projects
+                        </a>
+                        <a href="#contact" class="px-6 py-3 border border-gray-300 rounded-md font-medium hover:bg-gray-50 transition">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Education</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">SSC – Charkanai High School</h3>
+                    <p class="text-gray-600 mb-3">2020</p>
+                    <p class="text-gray-500">Focused on science and mathematics fundamentals.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">HSC – Patiya Government College</h3>
+                    <p class="text-gray-600 mb-3">2022</p>
+                    <p class="text-gray-500">Advanced studies in physics, chemistry, and mathematics.</p>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i data-feather="cpu"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-900">Electrical & Electronic Fundamentals</h3>
+                    <p class="text-gray-500">Understanding basic circuits, components, and their functions.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i data-feather="tool"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-900">Basic Mechanical Components</h3>
+                    <p class="text-gray-500">Knowledge of mechanical parts and their applications.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i data-feather="git-commit"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-900">Intro to Sensors and Actuators</h3>
+                    <p class="text-gray-500">Working with basic input/output devices in systems.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i data-feather="zap"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-900">Circuit Reading & Multimeter Usage</h3>
+                    <p class="text-gray-500">Ability to read schematics and use testing equipment.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i data-feather="activity"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-900">Basic Soldering and Troubleshooting</h3>
+                    <p class="text-gray-500">Hands-on experience with component assembly and repair.</p>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- Certificates Section -->
+     <!-- Modal -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50">
+    <img id="modalImage" src="" class="max-h-full max-w-full rounded-lg shadow-lg">
+</div>
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">Certificates</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            
+</div>
+    <div class="swiper-slide">
+  <div class="bg-gray-50 p-6 rounded-lg">
+     <div class="flex flex-row flex-wrap gap-6 justify-center">
+          <!-- Certificate 1 -->
+    <div class="flex flex-col items-center">
+        <img src="assets/images/certificate1.jpg" alt="Certificate 1" class="h-48 object-contain cursor-pointer certificate-img">
+        <span class="mt-2 text-sm font-medium text-center">Programming Certificate 1</span>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="flex flex-col items-center">
+        <img src="assets/images/certificate2.jpg" alt="Certificate 2" class="h-48 object-contain cursor-pointer certificate-img">
+        <span class="mt-2 text-sm font-medium text-center">Programming Certificate 2</span>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="flex flex-col items-center">
+        <img src="assets/images/certificate3.jpg" alt="Certificate 3" class="h-48 object-contain cursor-pointer certificate-img">
+        <span class="mt-2 text-sm font-medium text-center">Programming Certificate 3</span>
+    </div>
+
+    <!-- Certificate 4 -->
+    <div class="flex flex-col items-center">
+        <img src="assets/images/ielts.jpg" alt="IELTS" class="h-48 object-contain cursor-pointer certificate-img">
+        <span class="mt-2 text-sm font-medium text-center">IELTS Scorecard</span>
+    </div>
+
+    <!-- Certificate 5 -->
+    <div class="flex flex-col items-center">
+        <img src="assets/images/robotics.jpg" alt="Robotics Camp" class="h-48 object-contain cursor-pointer certificate-img">
+        <span class="mt-2 text-sm font-medium text-center">Robotics Camp</span>
+          </div>
+      </div>
+  </div>
+</div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination mt-8"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-bold mb-4 text-gray-900">Automatic Obstacle Detection System</h3>
+                    <img src="assets/images/project.jpg" alt="Project Schematic" class="w-full h-48 object-cover rounded mb-4">
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
+                                <i data-feather="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-gray-600">Used distance sensor to detect nearby objects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
+                                <i data-feather="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-gray-600">Triggered LED/buzzer alert for obstacles</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
+                                <i data-feather="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-gray-600">Learned basic sensor wiring and control logic</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="inline-block px-4 py-2 bg-indigo-600 text-white rounded-md text-sm font-medium hover:bg-indigo-700 transition">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- Language Skills Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Language Skills</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">English</h3>
+                    <p class="text-gray-600 mb-2">IELTS Score: 6.5</p>
+                    <p class="text-gray-500">(Reading, Writing, Listening, Speaking)</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Bangla</h3>
+                    <p class="text-gray-500">Native Proficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+<section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">What Excites Me</h2>
+            <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="p-8 bg-white rounded-lg shadow-sm">
+                    <h3 class="text-xl font-serif font-bold mb-4">Robotics</h3>
+                    <p class="text-gray-500">Exploring how mechanical and electronic systems work together to create intelligent machines.</p>
+                </div>
+                <div class="p-8 bg-white rounded-lg shadow-sm">
+                    <h3 class="text-xl font-serif font-bold mb-4">Automation</h3>
+                    <p class="text-gray-500">Designing systems that can operate with minimal human intervention.</p>
+                </div>
+                <div class="p-8 bg-white rounded-lg shadow-sm">
+                    <h3 class="text-xl font-serif font-bold mb-4">Control Systems</h3>
+                    <p class="text-gray-500">Understanding how to regulate the behavior of dynamic systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-indigo-600 text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
+                <p class="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
+                    I'm currently looking for internship opportunities and would love to hear about your projects.
+                </p>
+                <div class="flex justify-center gap-4 mb-8">
+                    <a href="https://www.linkedin.com/in/shrabonti-barua-a871132a4/" class="w-10 h-10 rounded-full bg-indigo-700 flex items-center justify-center hover:bg-indigo-800 transition">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-indigo-700 flex items-center justify-center hover:bg-indigo-800 transition">
+                        <i data-feather="mail"></i>
+                    </a>
+                </div>
+                <a href="mailto:shrabbonti.net@gmail.com" class="inline-block text-lg font-medium hover:underline">
+                    shrabbonti.net@gmail.com
+                </a>
+            </div>
+        </div>
+</section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        feather.replace();
+        
+        // Initialize Swiper
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        // Modal functionality
+        function openModal(imageUrl) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4';
+            modal.innerHTML = `
+                <div class="relative max-w-4xl w-full">
+                    <button onclick="this.parentElement.parentElement.remove()" class="absolute -top-12 right-0 text-white hover:text-gray-300">
+                        <i data-feather="x" class="w-8 h-8"></i>
+                    </button>
+                    <img src="${imageUrl}" alt="Certificate" class="w-full h-auto max-h-[80vh] object-contain">
+                </div>
+            `;
+            document.body.appendChild(modal);
+            feather.replace();
+        }
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                indigo: {
+                    600: '#4f46e5',
+                    700: '#4338ca',
+                }
+            },
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+            }
+        }
+    }
+}
+</script>
+</body>
+</html>
